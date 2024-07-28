@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+}
+
+header a {
+    font-size: x-large;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.dark {
+    background-color: #6892d5;
+    color: #f8fcfb;
+}
+
+.prime {
+    background-color: #79d1c3;
+}
+
+.second {
+    background-color: #c9fdd7;
+}
+
+.light {
+    background-color: #f8fcfb;
+}
+
+@media (max-width:500px) {
+    table {
+        font-size: 13px;
+        background-color: red;
+    }
+}
